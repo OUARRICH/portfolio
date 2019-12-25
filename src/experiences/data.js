@@ -24,29 +24,7 @@ const experiences = [
             'React Testing Library', 'ESLint', 'Prettier', 'Sonar',
             'Amazon web services', 'Docker', 'JIRA', 'VScode'
         ],
-        fullDescription: `Ma première experience était chez Sage Software, un éditeur de logiciel, en tant que développeur Front End
-                        pendant 2 ans et demi.<br/><br/>
-                        Pendant cette période, j'étais au sein d'une équipe agile composée de 8 personnes (6 dev, 1 Scrum, 1 PO) pour
-                        le développement de l'application SCV (Sage Customer View), qui est une application mobile hybride multidevices
-                        , qui permet un accès rapide à son portfeuille client, ses indicateurs clés de performances (KPI) et
-                        et à l'ensemble de ses documents commerciaux comme les factures, les devis, les bons de commandes. <br/><br/>
-                        Dans ce projet, j'ai participé au développement des pricipaux module de l'app comme: <br/><br/>
-                        • Le dashboard de l'app. <br/>
-                        • La liste et le detail des KPI <br/>
-                        • La liste et le détail des clients. <br/>
-                        • le module des documents commerciaux <br/>
-                        • Administration de paramétrage de l'app <br/>
-                        • Mise en favoris des KPIs et clients <br/>
-                        • Changement des paramétres du détail de KPI [les périodes d'analyse, recherche par département, par type de doc...] <br/><br/>
-                        L'app gère l'intérnationalisation et peut parler 4 langues. J'ai participé également à l'intégration 
-                        des maquettes UX eb html et css et au déveleppement des tests unitaires et E2E. <br/><br/>
-                        Finalement l'app est déployée sur les 3 stores, playStore, App store et windows store <br/>
-                        Comme méthodologie on a adopté l'agile Scrum avec des sprints de deux semaines, ... <br/><br/>
-                        Pendant cette période, j'étais au sein d'une équipe agile composée de 8 personnes (6 dev, 1 Scrum, 1 PO) pour
-                        le développement de l'application SCV (Sage Customer View), qui est une application mobile hybride multidevices
-                        , qui permet un accès rapide à son portfeuille client, ses indicateurs clés de performances (KPI) et
-                        et à l'ensemble de ses documents commerciaux comme les factures, les devis, les bons de commandes. <br/><br/>
-                        Dans ce projet, j'ai participé au développement des pricipaux module de l'app comme: <br/><br/>`
+        fullDescription: ``
     },
     {
         id:"2",
@@ -55,7 +33,10 @@ const experiences = [
         startDate: '01/2019',
         endDate: '05/2019',
         project: 'Augmented Investment (plateforme de recherche d’investissements)',
-        shortDescription: 'Application destinée aux clients d’AXA Banque afin de leur faciliter la demande d’un prêt bancaire via un parcours simple et fluide.',
+        shortDescription: `Augmented Investement est une plateforme qui vise à mettre en place des outils pour industrialiser au maximum
+        le travail des analystes et des gérants en amont de la prise de la décision d'investissement. En particulier la page de recherche
+        est un outil reposant sur un moteur utilisant l'IA et la machine learning pour délivrer des recherches pertinentes et ciblés sur
+        des volumes de données conséquentes`,
         bulletPoints: [
             'Développement de la page Search',
             'Correction d’anomalies et évolution',
@@ -73,7 +54,7 @@ const experiences = [
              'Babel',' Webpack 4' , 'Jest', 'Enzyme', 'Eslint', 'Nodemon',
              'Redux-logger', 'MaterialUI', 'React JSS (CSS-in-JS)', 'React-Grid-Layout','TFS'
         ],
-        fullDescription: ''
+        fullDescription: ``
     },
     {
         id:"3",
@@ -82,7 +63,7 @@ const experiences = [
         startDate: '09/2018',
         endDate: '12/2018',
         project: 'Augmented Investment (plateforme de recherche d’investissements)',
-        shortDescription: 'Application destinée aux clients d’AXA Banque afin de leur faciliter la demande d’un prêt bancaire via un parcours simple et fluide.',
+        shortDescription: 'Site web pour les codes à barres',
         bulletPoints: [
             'Développement de la page Search',
             'Correction d’anomalies et évolution',
@@ -109,7 +90,7 @@ const experiences = [
         startDate: '11/2017',
         endDate: '08/2018',
         project: 'Suivi de justificatifs: Widget web / Mobile',
-        shortDescription: 'bla ladndddd jdjlj',
+        shortDescription: 'SDJ est une brique digitale permettant à un agent AXA d’uploader, suivre et contrôler les justificatifs clients via Salesforce (servicing SDJ) et à un client d’uploader ses justificatifs via un widget web/responsive mobile',
         bulletPoints: [
             'Parcours Client et Parcours Agent AXA',
             'Fenêtre d’Upload de justificatifs',
@@ -129,7 +110,34 @@ const experiences = [
             'Nunit', 'SpecFlow', 'Gherkin', 'IIS', 'SQL Management Studio',
             'SQL', 'LINQ', 'Agile Scrum', 'Jira', 'Confluence'
         ],
-        fullDescription: ''
+        fullDescription: `En tant qua développeur full Stack React et C#/.Net au sein d'une équipe agile Scrum composée de 6
+        personnes: 4 développeurs, 1 SM et product owner. <br/><br/>
+        L'objectif c'était de développer l'application SDJ qui représente une brique digitale permettant à un client
+        souscrit à une offre d'assurance chez Axa d'uploader ces justificatifs nécessaires pour la construction de 
+        son dossier via un widget web, responsive mobile et un agent Axa d'uploader, suivre et côntroller les
+        justificatifs client <br/><br/>
+        <strong>Mon rôle consistait côté Front à</strong>: <br/>
+        • Participer à la mise en place de socle technique du projet React comme la définition de la structure du projet
+        (par feature) et les outils qui seront utilisés pour les tests, la gestion des dépendances, l'automatisation
+        des tâches, etc...<br/>
+        • J'ai participé également au développement des composants réutilisables avec React pour construire les écrans du 
+        parcours client et agent et aussi les pages dédiées à la l'upload des justificatifs.<br/>
+        • J'ai développé aussi un service pour implémenter un plan de taggage moyennant l'outil Google Analytics.<br/><br/>
+        <strong>Côté C# .Net: </strong><br/>
+        • J'ai participé au développement des web api Rest et des web services WCF, pour implémenter différentes fonctionalités
+        comme l'upload, la lecture d'un dossier client, la Relance automatique et manuelle des clients et MAJ des statuts
+        de dossier et justificatifs.<br/>
+        • A côté de ça on traite aussi la résilience des web services externes consommés par SDJ. <br/><br/>
+        Dans ce projet nous faisions beaucoup d'effort pour appliquer les bonnes pratiques de code comme les principes 
+        <a target='blank' href='https://hackernoon.com/solid-principles-made-easy-67b1246bcdf'>SOLID</a>
+        des techniques de <a href='https://docs.google.com/document/d/16LYPTewlJppXWuPsFePT3q4weS2oZvZQ1zLFSV4P_h8/edit' target='blank'>la programmation fonctionnelle</a>, le dev selon une approche TDD et BDD pour avoir une meilleure
+        couveture de code par les tests et la mise en place des linters de code.<br/>
+        Nous faisions aussi une analyse hebdomadaire de code en se basant sur les rapports générés par SonarQube.<br/>
+        J'ai participé aussi à la mise en place de la chîne d'intégration et de la livraison continue sur plusieurs
+        env [démo, re7, preprod, Prod] avec les outils VSTS et cloud AZURE <br/>
+        Nous faisions aussi des revues de codes collectifs ou indviduels pour la validation des code avant le merge. <br/>
+        Comme méthodo on a adopté l'agile SCRUM avec des sprints de 15 jours, des daily meetings, des retro,
+        des sprint planning et des sprint Review.`
     },
     {
         id:"5",
@@ -172,7 +180,7 @@ const experiences = [
         startDate: '05/2016',
         endDate: '11/2016',
         project: 'Abnormal Trading Patterns (Strategic Solution)',
-        shortDescription: 'Refonte Graphique et Data d’une application Intranet',
+        shortDescription: 'Refonte Graphique et Data de l’application Intranet ATP',
         bulletPoints: [
             'External Radar',
             'Alerts Rewoking',
@@ -192,7 +200,15 @@ const experiences = [
             'JavaScript', 'ES5', 'AngularJS 1.5',
             'Angular Material', 'HTML5', 'CSS3', 'Jasmine', 'uiGrid', 'Jira', 'TFS'
         ],
-        fullDescription: ''
+        fullDescription: `Auparavant j'étais chez BNP CIB sur le projet ATP, qui permet à l'équipe de contrôle de
+        surveiller et d'identifier toute anomalie dans les trading patterns à travers une série d'indicateurs. <br/><br/>
+        Pour cela j'ai participé à la refonte graphique et data d'une application développée à la base avec sharepoint. <br/>
+        L'objectif c'était de pouvoir rajouter de nouvelles fonctionnalités et fuilidier l'UX faciliter la navigation et 
+        améliorer l'efficacité opérationnelle. <br/><br/>
+        Donc au sein d'une équipe agile de 6 personnes, mon rôle consistait à développer 3 écrans pricipaux qui sont 
+        External Radar, Alerts Reworking et Alert Concentration. <br/><br/>
+        Le processus de dév consiste à découpler l'ancien code entre les parties Back end via des apis Odata en C# et Front end
+        avec des interfaces développées en AngularJS.`
     },
     {
         id:"7",
