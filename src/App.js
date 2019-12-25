@@ -23,7 +23,8 @@ const App = () => {
       <Menu onClickMenuItem={onClickMenuItem} open={open} selectedMenuItem={selectedMenuItem} />
       <div>
         <button className="App__barsIcon" onClick={toogleSideBar}>
-          <i className="fas fa-bars"></i>
+          {!open && <i className="fas fa-bars"></i>}
+          {open && <i className="fas fa-times"></i>}
         </button>
         <div className="App__Content">
           <Experiences />

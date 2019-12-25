@@ -12,6 +12,10 @@
     outline: none;
 }
 
+.App__barsIcon .fas{
+    font-size: 24px;
+} 
+
 .App__Content {
     padding: 40px 240px;
     width: 720px;

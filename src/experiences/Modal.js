@@ -12,8 +12,6 @@ const Modal = ({show, title, onClose, content}) => {
                     <h5>{title}</h5>
                     <button className="Modal__close" onClick={onClose}><i className="fas fa-times"></i></button>
                 </header>
-
-            
                 <div className="Modal__content" dangerouslySetInnerHTML={{__html: content}}>
                 </div>
             </section>
