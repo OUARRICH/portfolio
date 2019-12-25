@@ -24,7 +24,29 @@ const experiences = [
             'React Testing Library', 'ESLint', 'Prettier', 'Sonar',
             'Amazon web services', 'Docker', 'JIRA', 'VScode'
         ],
-        fullDescription: ''
+        fullDescription: `Ma première experience était chez Sage Software, un éditeur de logiciel, en tant que développeur Front End
+                        pendant 2 ans et demi.<br/><br/>
+                        Pendant cette période, j'étais au sein d'une équipe agile composée de 8 personnes (6 dev, 1 Scrum, 1 PO) pour
+                        le développement de l'application SCV (Sage Customer View), qui est une application mobile hybride multidevices
+                        , qui permet un accès rapide à son portfeuille client, ses indicateurs clés de performances (KPI) et
+                        et à l'ensemble de ses documents commerciaux comme les factures, les devis, les bons de commandes. <br/><br/>
+                        Dans ce projet, j'ai participé au développement des pricipaux module de l'app comme: <br/><br/>
+                        • Le dashboard de l'app. <br/>
+                        • La liste et le detail des KPI <br/>
+                        • La liste et le détail des clients. <br/>
+                        • le module des documents commerciaux <br/>
+                        • Administration de paramétrage de l'app <br/>
+                        • Mise en favoris des KPIs et clients <br/>
+                        • Changement des paramétres du détail de KPI [les périodes d'analyse, recherche par département, par type de doc...] <br/><br/>
+                        L'app gère l'intérnationalisation et peut parler 4 langues. J'ai participé également à l'intégration 
+                        des maquettes UX eb html et css et au déveleppement des tests unitaires et E2E. <br/><br/>
+                        Finalement l'app est déployée sur les 3 stores, playStore, App store et windows store <br/>
+                        Comme méthodologie on a adopté l'agile Scrum avec des sprints de deux semaines, ... <br/><br/>
+                        Pendant cette période, j'étais au sein d'une équipe agile composée de 8 personnes (6 dev, 1 Scrum, 1 PO) pour
+                        le développement de l'application SCV (Sage Customer View), qui est une application mobile hybride multidevices
+                        , qui permet un accès rapide à son portfeuille client, ses indicateurs clés de performances (KPI) et
+                        et à l'ensemble de ses documents commerciaux comme les factures, les devis, les bons de commandes. <br/><br/>
+                        Dans ce projet, j'ai participé au développement des pricipaux module de l'app comme: <br/><br/>`
     },
     {
         id:"2",
@@ -200,7 +222,24 @@ const experiences = [
             'npm', 'Protractor', 'Jasmine', 'Karma',
             'KendoUI', 'PhoneGap', 'Cordova', 'Jira', 'Bitbucket'
         ],
-        fullDescription: ''
+        fullDescription: `Ma première experience était chez Sage Software, un éditeur de logiciel, en tant que développeur Front End
+                        pendant 2 ans et demi.<br/><br/>
+                        Pendant cette période, j'étais au sein d'une équipe agile composée de 8 personnes (6 dev, 1 Scrum, 1 PO) pour
+                        le développement de l'application SCV (Sage Customer View), qui est une application mobile hybride multidevices
+                        , qui permet un accès rapide à son portfeuille client, ses indicateurs clés de performances (KPI) et
+                        et à l'ensemble de ses documents commerciaux comme les factures, les devis, les bons de commandes. <br/><br/>
+                        Dans ce projet, j'ai participé au développement des pricipaux module de l'app comme: <br/><br/>
+                        • Le dashboard de l'app. <br/>
+                        • La liste et le detail des KPI <br/>
+                        • La liste et le détail des clients. <br/>
+                        • le module des documents commerciaux <br/>
+                        • Administration de paramétrage de l'app <br/>
+                        • Mise en favoris des KPIs et clients <br/>
+                        • Changement des paramétres du détail de KPI [les périodes d'analyse, recherche par département, par type de doc...] <br/><br/>
+                        L'app gère l'intérnationalisation et peut parler 4 langues. J'ai participé également à l'intégration 
+                        des maquettes UX eb html et css et au déveleppement des tests unitaires et E2E. <br/><br/>
+                        Finalement l'app est déployée sur les 3 stores, playStore, App store et windows store <br/>
+                        Comme méthodologie on a adopté l'agile Scrum avec des sprints de deux semaines, ...`
     },
     {
         id:"8",

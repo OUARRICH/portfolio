@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 
-import './Experience.component.css';
-
 import experiences from './data';
+import Modal from './Modal';
+
+import './Experience.component.css';
 
 const renderExperienceHead = (experience, onClickExperience) => (
     <div onClick={() => onClickExperience(experience)} className="Experience__head" key={`head_${experience.id}`}>
@@ -16,17 +17,23 @@ const renderExperienceHead = (experience, onClickExperience) => (
         </div>
 </div>);
 
-const renderExperienceDetail = (experience, selectedExperience) => (
-    experience.id === selectedExperience && <div className="Experience__detail" key={`detail_${experience.id}`}>
-            <p>{experience.shortDescription}</p>
-            <ul className="Experience__detail__bullets">
-                { experience.bulletPoints.map(bulletPoint => <li>{bulletPoint}</li>) } 
-            </ul>
-            <div>
-                <strong>Technologies: </strong>{ experience.technologies.map(item => `${item}, `)}
-            </div>
+const renderExperienceDetail = (experience, selectedExperience) => {
+    const [show, toogleModal] = useState(false);
+    const openCloseModal = () => toogleModal(() => !show);
+
+    return experience.id === selectedExperience && <div className="Experience__detail" key={`detail_${experience.id}`}>
+    <p className="Experience__detail__shortDescription">{experience.shortDescription}</p>
+    {experience.fullDescription && <button onClick={openCloseModal} className="Experience__detail__more"><i className="fas fa-arrow-right"></i></button>}
+    <Modal show={show} onClose={openCloseModal} title={`${experience.role} - ${experience.client}`} content={experience.fullDescription} />
+    <ul className="Experience__detail__bullets">
+        { experience.bulletPoints.map((bulletPoint, index) => <li key={`bulletPoint_${index}_${experience.id}`}>{bulletPoint}</li>) } 
+    </ul>
+    <div>
+        <strong>Technologies: </strong>{ experience.technologies.map(item => `${item}, `)}
     </div>
-);
+</div>
+}
+
 
 const renderExperience = (experience, selectedExperience, onClickExperience) => {
     return (

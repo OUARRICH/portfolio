@@ -25,7 +25,26 @@
 }
 
 .Experience__detail {
-    padding: 0 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.Experience__detail__shortDescription{
+    display: inline;
+}
+
+button{
+    border: 0;
+    outline: none;
+}
+
+.Experience__detail__more {
+    background: transparent;
+    cursor: pointer;
+}
+
+.Experience__detail button i {
+    font-size: 14px;
+    color: var(--blue);
 }
 
 .Experience__detail__bullets {
