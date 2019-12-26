@@ -22,7 +22,7 @@ const renderExperienceDetail = (experience, selectedExperience) => {
     const openCloseModal = () => toogleModal(() => !show);
 
     return experience.id === selectedExperience && <div className="Experience__detail" key={`detail_${experience.id}`}>
-    <p className="Experience__detail__shortDescription">{experience.shortDescription}</p>
+    <h4 className="Experience__detail__shortDescription">{experience.project}</h4>
     {experience.fullDescription && <button onClick={openCloseModal} className="Experience__detail__more"><i className="fas fa-arrow-right"></i></button>}
     <Modal show={show} onClose={openCloseModal} title={`${experience.role} - ${experience.client}`} content={experience.fullDescription} />
     <ul className="Experience__detail__bullets">

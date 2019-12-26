@@ -6,7 +6,6 @@ const experiences = [
         startDate: '05/2019',
         endDate: '12/2019',
         project: 'Parcours de prêt personnel: Application Web / Mobile',
-        shortDescription: 'Application destinée aux clients d’AXA Banque afin de leur faciliter la demande d’un prêt bancaire via un parcours simple et fluide.',
         bulletPoints: [
             'Développement des pages de parcours : informations personnelles, propositions des offres, Récapitulatif',
             'Développement d’une librairie de composants réutilisables sur d’autres parcours.',
@@ -62,8 +61,7 @@ const experiences = [
         client: 'GS1 FRANCE',
         startDate: '09/2018',
         endDate: '12/2018',
-        project: 'Augmented Investment (plateforme de recherche d’investissements)',
-        shortDescription: 'Site web pour les codes à barres',
+        project: 'Site web pour les codes à barres',
         bulletPoints: [
             'Développement de la page Search',
             'Correction d’anomalies et évolution',
@@ -90,7 +88,6 @@ const experiences = [
         startDate: '11/2017',
         endDate: '08/2018',
         project: 'Suivi de justificatifs: Widget web / Mobile',
-        shortDescription: 'SDJ est une brique digitale permettant à un agent AXA d’uploader, suivre et contrôler les justificatifs clients via Salesforce (servicing SDJ) et à un client d’uploader ses justificatifs via un widget web/responsive mobile',
         bulletPoints: [
             'Parcours Client et Parcours Agent AXA',
             'Fenêtre d’Upload de justificatifs',
@@ -146,7 +143,6 @@ const experiences = [
         startDate: '12/2016',
         endDate: '11/2017',
         project: 'Banque En ligne d’ORANGE: Application Web mobile',
-        shortDescription: 'Banque en ligne orange',
         bulletPoints: [
             'La page d’accueil : Liste des comptes et services disponibles',
             'La liste des opérations : listing, donuts, changements de catégorie, ...',
@@ -167,11 +163,30 @@ const experiences = [
             'Gestion du périmètre technique et fonctionnel et Support technique',
         ],
         technologies: [
-            'AngularJS 1.5', 'Bootstrap', 'HTML', 'CSS', 'Javascript', 
-            'VSCode', 'Jira', 'git', 'Backbase', 'gulp', 'Less', 'Jasmine',
-            'Protractor', 'Karma', 'Jenkins'
+            'AngularJS 1.5', 'Bootstrap', 'HTML', 'CSS', 'Less', 'Javascript', 'RequireJS (modularité)',
+            'RequireJS Optimiser (pers, bundles)', 'VSCode', 'Jira', 'git', 'gulp (Task Automation)', 'Jasmine', 'Protractor', 'Karma', 'Jenkins', 'ESLINT', 'npm (dépendances outils: grunt, karma, ...)', 
+            'bower (dep librairies/ framework)', 
         ],
-        fullDescription: ''
+        fullDescription: `J'ai travaillé chez Orange Bank sur un projet destiné au large publique qui est le développement de la
+        banque en ligne d'Orange en tant que référent technique Front et AngularJS pour une équipe agile composé de 9 développeurs,
+        un SM, un PO et son stackholders composés de plusieurs business analystes. <br/><br/>
+        Sur ce projet j'ai joué pas mal de rôles à partir du développement et en passant par la validation du code, la proposition
+        des solutions techniques, le support technique des dev, la coordination avec les archis et les autres experts technique
+        pour la mise en place du socle technique et la rédaction des guidelines et bonnes pratiques du code. Je gére, ainsi, le périmétre 
+        technique et j'établie une relation fonctionnelle avec le client.<br/><br/>
+        Pour bien détailler la partie développement, j'ai mis en place le socle technique pour les tests unitaires, l'automatisation des 
+        tâches avec Gulp, l'implémentation d'un système de web tracking moyennant les scripts d'adobe analytiques.<br/><br/>
+        J'ai participé aussi au développement des grands blocs de l'app comme:<br/>
+        • la liste des opérations bancaires<br/>
+        • la gestion des demandes et documents clients <br/>
+        • les caractérisiques des comptes utilisateurs <br/>
+        • La page profil et info personnels<br/>
+        • Le paramétrage de l'app comme la réception des notifications ou le changement du MDP<br/>
+        • Développer pas mal de composants réutilisables (ex: filtre pour les opérations, demandes et documents)<br/>
+        • Améliorer les perfs de l'app (chrome profiler, RequireJS optimiser, Scroll Infini)<br/><br/>
+        L'app est développé selon une approche responsive en se basant sur bootstrap et angular Matérial et peut s'adapter à toutes
+        les résolutions et plateformes (iOS, Android, Web)<br/><br/>
+        Durant ce projet nous allons adopté la méthodologie Agile Scrum (Daily meeting, Sprint Planning, Rétro, démo).`
     },
     {
         id:"6",
@@ -180,7 +195,6 @@ const experiences = [
         startDate: '05/2016',
         endDate: '11/2016',
         project: 'Abnormal Trading Patterns (Strategic Solution)',
-        shortDescription: 'Refonte Graphique et Data de l’application Intranet ATP',
         bulletPoints: [
             'External Radar',
             'Alerts Rewoking',
@@ -217,7 +231,6 @@ const experiences = [
         startDate: '06/2013',
         endDate: '04/2016',
         project: 'Sage Customer View',
-        shortDescription: 'Application Mobile Hybride multi Devices',
         bulletPoints: [
             'Dashboard des indicateurs clés et portefeuille clients',
             'Liste et Détail des KPI',
@@ -263,7 +276,6 @@ const experiences = [
         startDate: '04/2019',
         endDate: '08/2019',
         project: 'Gestion des Ventes',
-        shortDescription: 'Application web pour la gestion des commandes / stock / clients',
         bulletPoints: [
             'Modélisation et création de la base de données en MongoDB et hébergement sur mLab',
             'Création du serveur ExpressJS / NodeJS',
