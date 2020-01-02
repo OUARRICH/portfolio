@@ -20,7 +20,7 @@ const experiences = [
             'Redux 4',
             'TypeScript', 'HTML5', 'CSS4', 'Webpack 4',  'Babel',
             'Git', 'Node/ npm', 'Jest', 'Enzyme', 'Jenkins',
-            'React Testing Library', 'ESLint', 'Prettier', 'Sonar',
+            'React Testing Library', 'ESLint', 'Prettier', 'Sonar', 'Nginx (reverse proxy: static file serving)',
             'Amazon web services', 'Docker', 'JIRA', 'VScode'
         ],
         fullDescription: ``
@@ -50,7 +50,7 @@ const experiences = [
         technologies: [
             'React 16.4', 'Redux 4', 'HighCharts', 'yarn', 'verdaccio',
             'nextJs', 'NodeJs', 'Express', 'redux-thunk', 'Isomorphic-unfetch',
-             'Babel',' Webpack 4' , 'Jest', 'Enzyme', 'Eslint', 'Nodemon',
+             'Babel',' Webpack 4' , 'Jest', 'Enzyme', 'Eslint', 'Nodemon', 'Winston',
              'Redux-logger', 'MaterialUI', 'React JSS (CSS-in-JS)', 'React-Grid-Layout','TFS'
         ],
         fullDescription: ``
