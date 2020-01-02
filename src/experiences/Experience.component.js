@@ -73,8 +73,6 @@ const Experiences = () => {
         setSelectedExperience(experience.id);
     };
 
-    console.log('NODE_ENV', process.env.NODE_ENV);
-
     return experiences.map(experience => renderExperience(experience, selectedExperience, onClickExperience, show, openCloseModal));
 }
 
