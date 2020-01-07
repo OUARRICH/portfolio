@@ -14,7 +14,7 @@ const renderExperienceHead = (experience, onClickExperience) => (
             {experience.client && <h5 className="Experience__head__client">{experience.client}</h5>}
         </div>
         <div>
-            {`${experience.startDate} - ${experience.endDate}`}
+            {`${experience.startdate} - ${experience.enddate}`}
         </div>
 </div>);
 
@@ -22,7 +22,7 @@ const renderExperienceDetail = (experience, selectedExperience, show, openCloseM
     return experience.id === selectedExperience && <div className="Experience__detail" key={`detail_${experience.id}`}>
         <h4 className="Experience__detail__shortDescription">{experience.project}</h4>
         {
-            experience.fullDescription && 
+            experience.fulldescription && 
             <button onClick={openCloseModal} className="Experience__detail__more">
                 <i className="fas fa-arrow-right"></i>
             </button>
@@ -31,10 +31,10 @@ const renderExperienceDetail = (experience, selectedExperience, show, openCloseM
             show={show} 
             onClose={openCloseModal}
             title={`${experience.role} - ${experience.client}`}
-            content={experience.fullDescription} 
+            content={experience.fulldescription} 
         />
         <ul className="Experience__detail__bullets">
-            { experience.bulletPoints.map((bulletPoint, index) => <li key={`bulletPoint_${index}_${experience.id}`}>{bulletPoint}</li>) } 
+            { experience.bulletpoints.map((bulletPoint, index) => <li key={`bulletPoint_${index}_${experience.id}`}>{bulletPoint}</li>) } 
         </ul>
         <div>
             <strong>Technologies: </strong>{ experience.technologies.map(item => `${item}, `)}
