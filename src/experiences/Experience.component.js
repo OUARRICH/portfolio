@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react';
 // import experiences from './data';
 import Modal from './Modal';
 import { getExperiences } from '../api';
+import Loader from '../shared/loader';
 
 import './Experience.component.css';
 
@@ -55,14 +56,17 @@ const renderExperience = (experience, selectedExperience, onClickExperience, sho
 const Experiences = () => {
     const [selectedExperience, setSelectedExperience] = useState(null);
     const [experiences, setExperiences] = useState([]);
+    const [loading, setLoading] = useState(false);
     const [show, toogleModal] = useState(false);
 
     const openCloseModal = () => toogleModal(() => !show);
 
     const fetchExperiences = async () => {
+        setLoading(true);
         const response = await getExperiences();
         
         setExperiences(response);
+        setLoading(false);
     }
 
     useEffect(() => {
@@ -73,7 +77,13 @@ const Experiences = () => {
         setSelectedExperience(experience.id);
     };
 
-    return experiences.map(experience => renderExperience(experience, selectedExperience, onClickExperience, show, openCloseModal));
+    if(loading) {
+        return <Loader />
+    }
+
+    return <div>
+        { experiences.map(experience => renderExperience(experience, selectedExperience, onClickExperience, show, openCloseModal)) }
+    </div>
 }
 
 export default Experiences;
