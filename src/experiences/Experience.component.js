@@ -78,7 +78,9 @@ const Experiences = () => {
     };
 
     if(loading) {
-        return <Loader />
+        return <div className="Experience__Loader">
+            <Loader />
+        </div>
     }
 
     return <div>

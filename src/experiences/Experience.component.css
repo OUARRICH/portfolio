@@ -69,11 +69,20 @@ button{
     color: var(--blue);
 }
 
+.Experience__Loader {
+    position: relative;
+    left: calc(750px / 2 - 57px /2);
+}
+
 /*Minor breakpoint for mobile: 600px*/
 @media screen and (max-width : 600px) {
     .Experience__head{
         flex-direction: column;
         height: auto;
         align-items: flex-start;
+    }
+
+    .Experience__Loader {
+        left: 100px;
     }
 }
