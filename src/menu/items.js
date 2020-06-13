@@ -1,10 +1,10 @@
 export const menuItems = [
-    {text: 'Home', value: 'HOME'},
-    {text: 'About', value: 'ABOUT'},
-    {text: 'Services', value: 'SERVICES'},
-    {text: 'Skills', value: 'SKILLS'},
-    {text: 'Education', value: 'EDUCATION'},
-    {text: 'Experience', value: 'EXPERIENCE'},
-    {text: 'Work', value: 'WORK'},
-    {text: 'Contact', value: 'CONTACT'},
+    {url:'/home', text: 'Home', value: 'HOME'},
+    {url:'', text: 'About', value: 'ABOUT'},
+    {url:'', text: 'Services', value: 'SERVICES'},
+    {url:'', text: 'Skills', value: 'SKILLS'},
+    {url:'', text: 'Education', value: 'EDUCATION'},
+    {url:'/experiences', text: 'Experience', value: 'EXPERIENCE'},
+    {url:'', text: 'Work', value: 'WORK'},
+    {url:'', text: 'Contact', value: 'CONTACT'},
 ];

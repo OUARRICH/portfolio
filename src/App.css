@@ -11,6 +11,7 @@
     top: 10px;
     outline: none;
     cursor: pointer;
+    z-index: 2;
 }
 
 .App__barsIcon .fas{
@@ -19,7 +20,7 @@
 
 .App__Content {
     padding: 40px 240px;
-    width: 720px;
+    width: 1024px;
 }
 
 /**Tablet*/

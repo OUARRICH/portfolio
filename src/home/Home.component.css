@@ -1,0 +1,48 @@
+.Home{
+    margin-left: -240px;
+    margin-right: -240px;
+    margin-top: -67px;
+    margin-bottom: -40px;
+}
+
+.Home__background {
+    width: 100%;
+    height: auto;
+}
+
+.Home__description {
+    position: absolute;
+    top: 290px;
+    right: 500px;
+}
+
+@media screen and (max-width : 623px) {
+    .Home{
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+
+    .Home__description {
+        top: 50px;
+        left: 80px;
+        right: auto;
+    }
+
+    .Home__background {
+        top: 0;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 715px) and (max-width: 924px) {
+    .Home__description {
+        right: 20px;
+    }
+}
+
+@media screen and (min-width: 624px) and (max-width: 714px) {
+    .Home__description {
+        right: 140px;
+        top: 189px;
+    }
+}

@@ -32,6 +32,7 @@
 
 .App__menu--open {
     display: block;
+    z-index: 1;
 }
 
 .App__menu--close {
