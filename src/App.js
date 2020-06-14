@@ -14,22 +14,19 @@ import './App.css';
 
 const App = () => {
   const [open, setOpen] = useState(false);
-  const [selectedMenuItem, setSeletctedMenuItem] = useState('HOME');
 
   const toogleSideBar = () => {
     setOpen(!open);
   };
 
-  const onClickMenuItem = (item) => {
-    setSeletctedMenuItem(item.value);
-    toogleSideBar();
-  } 
-
   return (
     <MediaQueryProvider>
       <div className="App">
         <Router>
-          <Menu onClickMenuItem={onClickMenuItem} open={open} selectedMenuItem={selectedMenuItem} />
+          <Menu
+            open={open}
+            toogleSideBar={toogleSideBar} 
+          />
           <div>
             <button className="App__barsIcon" onClick={toogleSideBar}>
               {!open && <i className="fas fa-bars"></i>}

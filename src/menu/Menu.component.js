@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import {menuItems} from './items';
 
@@ -17,13 +17,13 @@ const Menu = ({open, onClickMenuItem, selectedMenuItem}) => (
         </div>
         <ul>
             {
-            menuItems.map(item => <Link to={item.url} key={`Link__${item.value}`}>
-                <li onClick={() => onClickMenuItem(item)} key={item.value} className={classNames("App__menu__item", 
-                    {"App__menu__item--selected": item.value === selectedMenuItem}
-                )}>
-                    {item.text}
-                </li>
-            </Link>)
+                menuItems.map(item => <Link to={item.url} key={`Link__${item.value}`}>
+                    <li onClick={() => onClickMenuItem(item)} key={item.value} className={classNames("App__menu__item", 
+                        {"App__menu__item--selected": item.value === selectedMenuItem}
+                    )}>
+                        {item.text}
+                    </li>
+                </Link>)
             }
         </ul>
     </div>

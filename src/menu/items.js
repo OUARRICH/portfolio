@@ -8,3 +8,9 @@ export const menuItems = [
     {url:'', text: 'Work', value: 'WORK'},
     {url:'', text: 'Contact', value: 'CONTACT'},
 ];
+
+export const urlNameMapping = {
+    'home': 'HOME',
+    'experiences': 'EXPERIENCE',
+    '': 'HOME'
+};
