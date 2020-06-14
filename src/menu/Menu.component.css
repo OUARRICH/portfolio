@@ -3,10 +3,14 @@
     background-color: var(--lightGray);
     height: 100%;
     width: 220px;
-    margin: 0;
     padding-top: 50px;
+    
+}
+
+.App__menu ul {
     padding-left: 0px;
     list-style: none;
+    margin: 0;
 }
 
 .App__menu__item {
@@ -37,4 +41,32 @@
 
 .App__menu--close {
     display: none;
+}
+
+.App__menu__avatar {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ae4589;
+    border-radius: 50%;
+    background-image: url('../assets/images/avatar.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.App__menu__avatarContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App__menu__avatarContainer p{
+    margin: 0;
+}
+
+.App__menu__avatarContainer h2{
+    margin-bottom: 8px;
 }
