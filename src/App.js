@@ -22,6 +22,7 @@ const App = () => {
 
   const onClickMenuItem = (item) => {
     setSeletctedMenuItem(item.value);
+    toogleSideBar();
   } 
 
   return (
